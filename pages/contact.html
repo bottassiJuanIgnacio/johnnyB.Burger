@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../public/css/style.css">
+    <title>Contacto | Johnny B. Burger </title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="../index.html"><img src="../public/img/burgerLogo.jpg" alt="Logo Burger"></a>
+        </div>
+        <nav class="topNavBar">
+            <ul type="none" >
+                <li>
+                    <a href="../index.html"><i class="fas fa-home-lg"></i> Home</a>
+                </li>
+                <li>
+                    <a href="about.html"><i class="fa-solid fa-image-portrait"></i> Nosotros</a>
+                </li>
+                <li>
+                    <a href="menu.html"><i class="fa-solid fa-burger"></i> Menú</a>
+                </li>
+                <li>
+                    <a href="contact.html"><i class="fa-solid fa-envelope"></i> Contacto</a>
+                </li>
+                <li>
+                    <a href="news.html"><i class="fa-solid fa-circle-info"></i> Noticias</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contacto</h1>
+        <section id="contact">
+            <h2>Datos del Usuario</h2>
+            <form class="form-contact" action="" method="get">
+                <fieldset>
+                    
+
+                    <label for="name"> Nombre </label>
+                    <input type="text" name="name" placeholder="Juan">
+
+
+                    <label for="lastname"> Apellido </label>
+                    <input type="text" name="lastname" placeholder="Gomez" required="required">
+
+
+                    <label for="email"> Correo electrónico </label>
+                    <input type="email" name="email" placeholder="ejemplo@gmail.com">
+
+
+                    <label for="phone"> Celular </label>
+                    <input type="number" name="phone" placeholder="221 7895613">
+
+
+                    <label for="address">  Direccion actual </label>
+                    <input type="text" name="address" placeholder="60 e11 y 12">
+                    <div class="wrapper-genre">
+                        <label for="genre"> Género </label>
+                        <!-- PREGUNTAR: Como hacer para que el label y input se posicionen en una sola linea -->
+                        <label for="genre">Hombre</label>
+                        <input type="radio" name="genre" value="hombre" required="required">
+                        <label for="genre">Mujer</label>
+                        <input type="radio" name="genre" value="mujer" required="required">
+                        <label for="genre">No binario</label>
+                        <input type="radio" name="genre" value="no binario" required="required">  
+
+                    </div>
+
+                    <div id="form-btn">
+                        <button type="submit"> Enviar formulario</button>
+                        <button type="reset"> Borrar </button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="logo">
+            <a href="../index.html"><img src="../public/img/burgerLogo.jpg" alt="Logo Burger"></a>
+        </div>
+        <nav class="bottomNav">
+            <ul type="none">
+                <li>
+                    <a href="#">Políticas de Privacidad</a>
+                </li>
+                <li>
+                    <a href="#">Defensa del Consumidor</a>
+                </li>
+                <li>
+                    <a href="about.html">Nosotros</a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="socialMidia">
+            <ul type="none">
+                <li>
+                    <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
