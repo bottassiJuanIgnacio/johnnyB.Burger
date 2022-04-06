@@ -15,124 +15,126 @@
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <a href="../index.html"><img src="../public/img/burgerLogo.jpg" alt="Logo Burger"></a>
-        </div>
-        <nav class="topNavBar">
-            <ul type="none" >
-                <li>
-                    <a href="../index.html"><i class="fas fa-home-lg"></i> Home</a>
-                </li>
-                <li>
-                    <a href="about.html"><i class="fa-solid fa-image-portrait"></i> Nosotros</a>
-                </li>
-                <li>
-                    <a href="menu.html"><i class="fa-solid fa-burger"></i> Menú</a>
-                </li>
-                <li>
-                    <a href="contact.html"><i class="fa-solid fa-envelope"></i> Contacto</a>
-                </li>
-                <li>
-                    <a href="news.html"><i class="fa-solid fa-circle-info"></i> Noticias</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>Hamburguesas</h1>
-        <section id="menu">
-            <article class="burger">
-                <h2>Nombre del producto</h2>
-                <div >
-                    <img class="responsive-img" src="https://via.placeholder.com/500x500" alt="burger featured">
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eaque porro numquam earum impedit
-                    illo expedita ducimus distinctio dolor voluptatibus, aliquam, possimus repellendus facere sit optio
-                    blanditiis similique deserunt. Nostrum.</p>
-                <!-- Se puede agregar un video o mas imagenes sobre el producto -->
-            </article>
-            <article class="burger">
+    
+    <div class="grid-father-menu"><!-- Cuando le doy display grid a este div automaticamente se achica el body por la mitad -linea279 del css-  -->
+        <header class="grid-header-menu">
+            <div class="logo">
+                <a href="../index.html"><img src="../public/img/burgerLogo.jpg" alt="Logo Burger"></a>
+            </div>
+            <nav class="topNavBar">
+                <ul type="none" >
+                    <li>
+                        <a href="../index.html"><i class="fas fa-home-lg"></i> Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html"><i class="fa-solid fa-image-portrait"></i> Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="menu.html"><i class="fa-solid fa-burger"></i> Menú</a>
+                    </li>
+                    <li>
+                        <a href="contact.html"><i class="fa-solid fa-envelope"></i> Contacto</a>
+                    </li>
+                    <li>
+                        <a href="news.html"><i class="fa-solid fa-circle-info"></i> Noticias</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1 class="grid-title-menu">Hamburguesas</h1>
+            <section id="menu">
+                <article class="burger grid-burger1"> <!-- Cuando hago grid-template-areas para estos articulos no me los toma, solamente me valida el header y footer pero este articulo que esta dentro del main no me lo ubica en columna "articulo1 articulo2" -linea284 css -->
+                    <h2>Nombre del producto</h2>
+                    <div >
+                        <img class="responsive-img" src="https://via.placeholder.com/500x500" alt="burger featured">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eaque porro numquam earum impedit
+                        illo expedita ducimus distinctio dolor voluptatibus, aliquam, possimus repellendus facere sit optio
+                        blanditiis similique deserunt. Nostrum.</p>
+                </article>
+                <article class="burger grid-burger2">
 
-                <h2>Nombre del producto</h2>
-                <div>
-                    <img class="responsive-img"  src="https://via.placeholder.com/500x500" alt="burger featured">
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eaque porro numquam earum impedit
-                    illo expedita ducimus distinctio dolor voluptatibus, aliquam, possimus repellendus facere sit optio
-                    blanditiis similique deserunt. Nostrum.</p>
-
-
-            </article>
-            <article class="burger">
-
-                <h2>Nombre del producto</h2>
-                <div>
-                    <img class="responsive-img"  src="https://via.placeholder.com/500x500" alt="burger featured">
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eaque porro numquam earum impedit
-                    illo expedita ducimus distinctio dolor voluptatibus, aliquam, possimus repellendus facere sit optio
-                    blanditiis similique deserunt. Nostrum.</p>
+                    <h2>Nombre del producto</h2>
+                    <div>
+                        <img class="responsive-img"  src="https://via.placeholder.com/500x500" alt="burger featured">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eaque porro numquam earum impedit
+                        illo expedita ducimus distinctio dolor voluptatibus, aliquam, possimus repellendus facere sit optio
+                        blanditiis similique deserunt. Nostrum.</p>
 
 
-            </article>
-            <article class="burger">
+                </article>
+                <article class="burger grid-burger3">
 
-                <h2>Nombre del producto</h2>
-                <div>
-                    <img class="responsive-img"  src="https://via.placeholder.com/500x500" alt="burger featured">
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eaque porro numquam earum impedit
-                    illo expedita ducimus distinctio dolor voluptatibus, aliquam, possimus repellendus facere sit optio
-                    blanditiis similique deserunt. Nostrum.</p>
-
-
-            </article>
-            <article class="burger">
-
-                <h2>Nombre del producto</h2>
-                <div>
-                    <img class="responsive-img"  src="https://via.placeholder.com/500x500" alt="burger featured">
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eaque porro numquam earum impedit
-                    illo expedita ducimus distinctio dolor voluptatibus, aliquam, possimus repellendus facere sit optio
-                    blanditiis similique deserunt. Nostrum.</p>
+                    <h2>Nombre del producto</h2>
+                    <div>
+                        <img class="responsive-img"  src="https://via.placeholder.com/500x500" alt="burger featured">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eaque porro numquam earum impedit
+                        illo expedita ducimus distinctio dolor voluptatibus, aliquam, possimus repellendus facere sit optio
+                        blanditiis similique deserunt. Nostrum.</p>
 
 
-            </article>
-        </section>
-    </main>
-    <footer>
-        <div class="logo">
-            <a href="../index.html"><img src="../public/img/burgerLogo.jpg" alt="Logo Burger"></a>
-        </div>
-        <nav class="bottomNav">
-            <ul type="none">
-                <li>
-                    <a href="#">Políticas de Privacidad</a>
-                </li>
-                <li>
-                    <a href="#">Defensa del Consumidor</a>
-                </li>
-                <li>
-                    <a href="about.html">Nosotros</a>
-                </li>
-            </ul>
-        </nav>
-        <nav class="socialMidia">
-            <ul type="none">
-                <li>
-                    <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
-                </li>
-            </ul>
-        </nav>
-    </footer>
+                </article>
+                <article class="burger grid-burger4">
+
+                    <h2>Nombre del producto</h2>
+                    <div>
+                        <img class="responsive-img"  src="https://via.placeholder.com/500x500" alt="burger featured">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eaque porro numquam earum impedit
+                        illo expedita ducimus distinctio dolor voluptatibus, aliquam, possimus repellendus facere sit optio
+                        blanditiis similique deserunt. Nostrum.</p>
+
+
+                </article>
+                <article class="burger grid-burger5">
+
+                    <h2>Nombre del producto</h2>
+                    <div>
+                        <img class="responsive-img"  src="https://via.placeholder.com/500x500" alt="burger featured">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eaque porro numquam earum impedit
+                        illo expedita ducimus distinctio dolor voluptatibus, aliquam, possimus repellendus facere sit optio
+                        blanditiis similique deserunt. Nostrum.</p>
+
+
+                </article>
+            </section>
+        </main>
+        <footer class="grid-footer-menu">
+            <div class="logo">
+                <a href="../index.html"><img src="../public/img/burgerLogo.jpg" alt="Logo Burger"></a>
+            </div>
+            <nav class="bottomNav">
+                <ul type="none">
+                    <li>
+                        <a href="#">Políticas de Privacidad</a>
+                    </li>
+                    <li>
+                        <a href="#">Defensa del Consumidor</a>
+                    </li>
+                    <li>
+                        <a href="about.html">Nosotros</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="socialMidia">
+                <ul type="none">
+                    <li>
+                        <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
 </body>
 
 </html>
