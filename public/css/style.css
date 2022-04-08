@@ -313,6 +313,7 @@ main #about-btm div img{
 
 /* section menu */
 main #menu{
+    width: 90%;
     background-color: var(--brown);
     display: flex;
     flex-wrap: wrap;
@@ -325,6 +326,8 @@ main #menu{
 /*article burger */
 main #menu .burger{
     width: 40%;
+    border: solid 5px var(--maroon);
+    margin: 3rem 1rem;
 }
 /* h2 */
 main #menu h2{
@@ -459,14 +462,14 @@ main #contact .form-contact fieldset #form-btn button{
     height: 0px;
   }
   ::-webkit-scrollbar-thumb {
-    background:rgb(252, 250, 250);
+    background:var(--soft-brown);
     border-radius: 6px;
   }
   ::-webkit-scrollbar-thumb:hover {
     background:rgb(127, 127, 141);
   }
   ::-webkit-scrollbar-thumb:active {
-    background: #f70404;
+    background: var(--maroon);
   }
 
   ::-webkit-scrollbar-corner {
