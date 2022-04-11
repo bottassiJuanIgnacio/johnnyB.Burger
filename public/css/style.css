@@ -185,6 +185,37 @@ footer{
     background-color: var(--orange);
     border: 3px solid var(--dark-blue);
 }
+/** animaciones contacto**/
+.bottomNav .button{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--maroon);/*letra inicial*/
+    position: relative;
+    overflow: hidden;
+    transition: color .75s;
+}
+.bottomNav .button:hover{
+    color: var(--dark-blue); /*letra final*/
+}
+.bottomNav .button::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 150%;
+    height: 100%;
+    color: red; /*letra final*/
+    background-color: yellow;
+    transform: scaleX(0) skewX(35deg);
+    transform-origin: left;
+    z-index: -1;
+    transition: transform 1s;
+}
+.bottomNav .button:hover::before{
+    transform: scaleX(1) skewX(35deg);
+}
 /* Logo */
 footer .logo{
     display: inline-block;
@@ -513,6 +544,36 @@ main #contact .form-contact fieldset #form-btn button{
 
 ::-webkit-scrollbar-corner {
     background: transparent;
+}
+/** animaciones contacto**/
+#form-btn button{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: green;/*letra inicial*/
+    outline: 2px solid blue;/*borde*/
+    padding: 30px 60px;
+    position: relative;
+    overflow: hidden;
+    transition: color 1s;
+}
+#form-btn button:hover{
+    color: #833ab4; /*letra final*/
+}
+#form-btn button::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 0;
+    height: 100%;
+    background-color: red;
+    transform: skewX(35deg);
+    z-index: -1;
+    transition: width 1s;
+}
+#form-btn button:hover::before{
+    width: 150%;
 }
 /*** TABLET RESPONSIVE ***/
 
