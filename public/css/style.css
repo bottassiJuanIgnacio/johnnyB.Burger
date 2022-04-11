@@ -14,7 +14,6 @@
 
 .responsive-img {
     max-width: 100%;
-    height: auto;
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -38,7 +37,7 @@ header{
     position: sticky;
     z-index: 10; 
     border: 3px solid var(--dark-blue);
-    /* width: 100vw; */
+    
 }
 /* Logo */
 header .logo{
@@ -47,7 +46,6 @@ header .logo{
     object-fit: cover;
     width: 100px;
     height: 100%;
-    
 }
 header .logo img{
     width: 100%;
@@ -57,22 +55,42 @@ header .logo img{
 }
 /* topNavBar */
 header .topNavBar{
-    text-align: center;
+    width: auto;
 }
 .topNavBar ul{
     display: flex;
 }
 .topNavBar ul li{
+    position: relative;
     display: inline-block;
     margin: 10px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .topNavBar ul li a{
-    color: var(--soft-brown);
+    position: relative;
+    text-decoration: none;
+    font-size: 1.5rem;
+    line-height: 1em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     font-family: 'Pacifico', cursive;
     padding: 1%;
-    text-decoration: none
+    color: var(--orange);
+    -webkit-text-stroke: 1px rgb(255, 255, 255, 0.5);
+}
+.topNavBar ul li a::before{
+    content: attr(data-text);
+    position: absolute;
+    color: var(--clr);
+    width: 0;
+    overflow: hidden;
+    transition: .75s;
+    border-right: 8px solid var(--clr);
+    -webkit-text-stroke: 1px var(--clr);
+}
+.topNavBar ul li a:hover::before{
+    width: 100%;
+    filter: drop-shadow(0 0 25px var(--clr));
 }
 .topNavBar ul li a i{
     font-size: 25px;
@@ -149,8 +167,7 @@ main section .wrapler-bottom iframe{
     display: flex;
     justify-content: left; 
     width: 100%;
-    height: 100vh;
-    object-fit: cover;
+    height: 100%;
 }
 /*lastImg*/
 
@@ -253,23 +270,34 @@ main #about-top h2, main #about-btm h2{
     padding: 10px;
 }
 /* p */
-main #about-top p, main #about-btm p{
+main #about-top p, main #about-btm p {
     padding: 10px;
     padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+main #about-top p{
+    width: 100%;
 }
 /* img */
 main #about-top div, main #about-btm div{
     padding: 15px;
 }
 main #about-btm div{
-    width: 300px;
-    height: 350px;
+    width: 70%;
+    height: auto;
     margin: auto;
 }
 main #about-btm div img{
     border-radius: 50%;
     width: 100%;
     height: 100%;
+}
+#about-btm .card-dev{
+    display: flex;
+    width: 100%;
 }
 
 /*** MENU ***/
@@ -344,16 +372,25 @@ main #menu p{
 main #menu div{
     padding: 15px;
 }
-/* main #menu .burger div{
-    width: 300px;
-    height: 350px;
-    margin: auto;
-} 
-main #about-btm div img{
-    border-radius: 50%;
+/* animaciones menu*/
+.card{
     width: 100%;
     height: 100%;
-}*/
+    border-radius: 10px;
+    outline: 1px solid rgba(255, 255, 255, .5);
+    outline-offset: -26px;
+    box-shadow: 3px 3px 10px rgb(0 0 0 / 10%);
+    overflow: hidden;
+}
+.card-image{
+    position: relative;
+    opacity: .8;
+    transition: transform .75s;
+}
+.card:hover .card-image{
+    transform: scale(1.35);
+}
+
 
 /*** NEWS ***/
 /** main **/
@@ -386,8 +423,10 @@ main #new .article-new p{
 }
 /* img */
 main #new .article-new div{
-    padding: 15px;
+    padding: 5px;
 }
+
+
 
 /*** CONTACT ***/
 /** main **/
@@ -456,25 +495,34 @@ main #contact .form-contact fieldset #form-btn button{
     width: 12px;
     height: 20px;
     background-position: top;
-  }
-  ::-webkit-scrollbar-button {
+}
+::-webkit-scrollbar-button {
     width: 0px;
     height: 0px;
-  }
-  ::-webkit-scrollbar-thumb {
+}
+::-webkit-scrollbar-thumb {
     background:var(--soft-brown);
     border-radius: 6px;
-  }
-  ::-webkit-scrollbar-thumb:hover {
+}
+::-webkit-scrollbar-thumb:hover {
     background:rgb(127, 127, 141);
-  }
-  ::-webkit-scrollbar-thumb:active {
+}
+::-webkit-scrollbar-thumb:active {
     background: var(--maroon);
-  }
+}
 
-  ::-webkit-scrollbar-corner {
+::-webkit-scrollbar-corner {
     background: transparent;
-  }
+}
+/*** TABLET RESPONSIVE ***/
+
+@media only screen and (min-width: 0px) and (max-width: 1023px){
+    /** navbar **/
+    .topNavBar ul li a {
+        font-size: .9rem;
+        line-height: 1.1rem;
+    }
+}
 
 /*** MOBILE RESPONSIVE ***/
 
@@ -491,13 +539,22 @@ main #contact .form-contact fieldset #form-btn button{
         position: relative;
         z-index: 0;
     }
+    header .logo{
+        margin: 10px 45px 10px 0px;
+    }
     /* ul */
     header nav ul{
         display: flex;
         flex-direction: column;
     }
+    .topNavBar ul li {
+        box-shadow: none;
+    }
     .topNavBar ul li a{
         padding: 0%;
+        font-size: 1.5rem;
+        line-height: 1em;
+        letter-spacing: 0.1em;
     }
     main h1 {
         font-size: 3em;
@@ -539,7 +596,7 @@ main #contact .form-contact fieldset #form-btn button{
         width: 100%;
     }
     section .wrapler-bottom .divIframe{
-        height: 70vh;
+        height: 300px;
     }
     section .wrapler-bottom .divIframe iframe{
         padding: 0%;
