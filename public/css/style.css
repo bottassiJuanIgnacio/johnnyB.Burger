@@ -257,6 +257,7 @@ footer .socialMidia{
 }
 footer .socialMidia ul{
     display: inline;
+    padding-left: 0px;
 }
 footer .socialMidia ul li{
     margin: 10px;
@@ -556,15 +557,17 @@ main #contact .form-contact fieldset #form-btn button{
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: green;/*letra inicial*/
-    outline: 2px solid blue;/*borde*/
+    color: var(--orange);/*letra inicial*/
+    outline: 2px solid var(--soft-brown);/*borde*/
     padding: 30px 60px;
     position: relative;
     overflow: hidden;
     transition: color 1s;
+    transition: outline 1s;
 }
 #form-btn button:hover{
-    color: #833ab4; /*letra final*/
+    color: var(--brown); /*letra final*/
+    outline: 2px solid var(--brown);/*borde*/
 }
 #form-btn button::before{
     content: '';
@@ -590,7 +593,7 @@ main #contact .form-contact fieldset #form-btn button{
     /** navbar **/
     .topNavBar ul li a {
         font-size: .9rem;
-        line-height: 1.1rem;
+        line-height: 1.4rem;
     }
 }
 
