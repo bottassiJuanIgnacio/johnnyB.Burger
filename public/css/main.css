@@ -143,3 +143,53 @@ footer {
             color: #1d92db;
             background-color: #f9e3d2;
             box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; }
+
+main {
+  /* section menu */ }
+  main h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 6rem;
+    color: #1A132F;
+    text-align: center;
+    margin: 30px 10px;
+    padding-bottom: 10px;
+    text-decoration-line: underline;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; }
+  main #menu {
+    width: 90%;
+    background-color: #470D21;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    text-align: center;
+    padding: 30px;
+    justify-content: space-around;
+    align-items: center;
+    /*article burger */
+    /* img */ }
+    main #menu .burger {
+      width: 40%;
+      border: solid 5px #9C0F48;
+      margin: 3rem 1rem; }
+    main #menu h2 {
+      color: #FEA82F;
+      font-family: 'Pacifico', cursive;
+      padding: 10px; }
+    main #menu p {
+      padding: 10px;
+      padding-bottom: 15px; }
+    main #menu .cardMenu {
+      padding: 15px;
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      outline: 1px solid rgba(255, 255, 255, 0.5);
+      outline-offset: -26px;
+      box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden; }
+      main #menu .cardMenu:hover .cardMenu-image {
+        transform: scale(1.35); }
+      main #menu .cardMenu .cardMenu-image {
+        position: relative;
+        opacity: .8;
+        transition: transform .75s; }

@@ -1,0 +1,59 @@
+@import "../utilities/variables";
+main{
+    h1{
+        font-family: 'Pacifico', cursive;
+        font-size: 6rem;
+        color: $dark-blue;
+        text-align: center;
+        margin: 30px 10px;
+        padding-bottom: 10px;
+        text-decoration-line: underline;
+        box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    }
+    /* section menu */
+    #menu{
+        width: 90%;
+        background-color: $brown;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px auto;
+        text-align: center;
+        padding: 30px;
+        justify-content: space-around;
+        align-items: center;
+        /*article burger */
+        .burger{
+            width: 40%;
+            border: solid 5px $maroon;
+            margin: 3rem 1rem;
+        }
+        h2{
+            color: $soft-brown;
+            font-family: 'Pacifico', cursive;
+            padding: 10px;
+        }
+        p{
+            padding: 10px;
+            padding-bottom: 15px;
+        }
+        /* img */
+        .cardMenu{
+            padding: 15px;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            outline: 1px solid rgba(255, 255, 255, .5);
+            outline-offset: -26px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            &:hover .cardMenu-image{
+                transform: scale(1.35);
+            }
+            .cardMenu-image{
+                position: relative;
+                opacity: .8;
+                transition: transform .75s;
+            }
+        }
+    }
+}
