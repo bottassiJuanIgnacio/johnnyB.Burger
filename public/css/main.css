@@ -1,0 +1,145 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  margin-top: 1%;
+  background-color: #470D21;
+  top: 10px;
+  position: sticky;
+  z-index: 10;
+  border: 3px solid #1A132F; }
+  header .logo {
+    display: inline-block;
+    max-width: 100%;
+    object-fit: cover;
+    width: 100px;
+    height: 100%; }
+    header .logo img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%; }
+  header .topNavBar {
+    width: auto; }
+    header .topNavBar ul {
+      display: flex; }
+      header .topNavBar ul li {
+        position: relative;
+        display: inline-block;
+        margin: 10px;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; }
+        header .topNavBar ul li a {
+          position: relative;
+          text-decoration: none;
+          font-size: 1.5rem;
+          line-height: 1em;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          font-family: 'Pacifico', cursive;
+          padding: 1%;
+          color: #D67D3E;
+          -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5); }
+          header .topNavBar ul li a::before {
+            content: attr(data-text);
+            position: absolute;
+            color: var(--clr);
+            width: 0;
+            overflow: hidden;
+            transition: .75s;
+            border-right: 8px solid var(--clr);
+            -webkit-text-stroke: 1px var(--clr); }
+          header .topNavBar ul li a:hover::before {
+            width: 100%;
+            filter: drop-shadow(0 0 25px var(--clr)); }
+          header .topNavBar ul li a i {
+            font-size: 25px; }
+
+/** Footer **/
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #D67D3E;
+  border: 3px solid #1A132F;
+  /* socialMidia nav */ }
+  footer .logo {
+    display: inline-block;
+    max-width: 100%;
+    object-fit: cover;
+    width: 100px;
+    height: 100%; }
+    footer .logo img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%; }
+  footer .bottomNav {
+    display: inline;
+    width: 50%;
+    text-align: center;
+    /** animaciones contacto**/ }
+    footer .bottomNav ul {
+      display: flex;
+      font-weight: bold;
+      justify-content: space-evenly; }
+      footer .bottomNav ul li {
+        display: inline; }
+        footer .bottomNav ul li a {
+          color: #9C0F48;
+          text-transform: uppercase;
+          padding: 1%;
+          text-decoration: none; }
+    footer .bottomNav .button {
+      display: inline-block;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #9C0F48;
+      /*letra inicial*/
+      position: relative;
+      overflow: hidden;
+      transition: color .75s; }
+      footer .bottomNav .button:hover {
+        color: #1A132F;
+        /*letra final*/ }
+      footer .bottomNav .button::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -50px;
+        width: 150%;
+        height: 100%;
+        color: red;
+        /*letra final*/
+        background-color: yellow;
+        transform: scaleX(0) skewX(35deg);
+        transform-origin: left;
+        z-index: -1;
+        transition: transform 1s; }
+      footer .bottomNav .button:hover::before {
+        transform: scaleX(1) skewX(35deg); }
+  footer .socialMidia {
+    width: 10%;
+    display: flex;
+    justify-content: center; }
+    footer .socialMidia ul {
+      display: inline;
+      padding-left: 0px; }
+      footer .socialMidia ul li {
+        margin: 10px; }
+        footer .socialMidia ul li a {
+          color: #9C0F48; }
+          footer .socialMidia ul li a i {
+            font-size: 25px; }
+          footer .socialMidia ul li a .fa-facebook-square {
+            color: #4267B2;
+            background-color: #f9e3d2;
+            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; }
+          footer .socialMidia ul li a .fa-instagram-square {
+            color: #C13584;
+            background-color: #f9e3d2;
+            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; }
+          footer .socialMidia ul li a .fa-twitter-square {
+            color: #1d92db;
+            background-color: #f9e3d2;
+            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; }

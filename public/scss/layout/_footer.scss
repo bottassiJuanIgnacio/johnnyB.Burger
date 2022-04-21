@@ -1,0 +1,107 @@
+@import "../utilities/variables";
+
+/** Footer **/
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: $orange;
+    border: 3px solid $dark-blue;
+    .logo{
+        display: inline-block;
+        max-width: 100%;
+        object-fit: cover;
+        width: 100px;
+        height: 100%;
+        img{
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+    }
+    .bottomNav{
+        display: inline;
+        width: 50%;
+        text-align: center;
+        ul{
+            display: flex;
+            font-weight: bold;
+            justify-content: space-evenly;
+            li{
+                display: inline;
+                a{
+                    color: $maroon;
+                    text-transform: uppercase;
+                    padding: 1%;
+                    text-decoration: none
+                }
+            }
+        }
+        /** animaciones contacto**/
+        .button{
+            display: inline-block;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: $maroon;/*letra inicial*/
+            position: relative;
+            overflow: hidden;
+            transition: color .75s;
+            &:hover{
+                color: $dark-blue; /*letra final*/
+            }
+            &::before{
+                content: '';
+                position: absolute;
+                top: 0;
+                left: -50px;
+                width: 150%;
+                height: 100%;
+                color: red; /*letra final*/
+                background-color: yellow;
+                transform: scaleX(0) skewX(35deg);
+                transform-origin: left;
+                z-index: -1;
+                transition: transform 1s;
+            }
+            &:hover::before{
+                transform: scaleX(1) skewX(35deg);
+            }
+        } 
+    }
+    /* socialMidia nav */
+    .socialMidia{
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        ul{
+            display: inline;
+            padding-left: 0px;
+            li{
+                margin: 10px;
+                a{
+                    color: $maroon;
+                    i{
+                        font-size: 25px;
+                    }
+                    .fa-facebook-square{
+                        color: #4267B2;
+                        background-color: $beige;
+                        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+                    }
+                    .fa-instagram-square{
+                        color: #C13584;
+                        background-color: $beige;
+                        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+                    }
+                    .fa-twitter-square{
+                        color: #1d92db;
+                        background-color: $beige;
+                        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+                    }
+                }
+            }
+        }
+    }
+}
