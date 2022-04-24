@@ -1,0 +1,17 @@
+@import "../utilities/variables";
+
+main{
+    .noticias{
+        .cardNew{
+            .noticia{
+                .cardNewText{
+                    background-color: $brown;
+                    p{
+                        color: $orange;
+                        font-family: 'Lato', sans-serif;
+                    }
+                }
+            }   
+        }
+    }
+}

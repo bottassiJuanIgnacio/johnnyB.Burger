@@ -1,0 +1,83 @@
+@import "../utilities/variables";
+main{
+    h2{
+        color: $dark-blue;
+        font-family: 'Pacifico', cursive;
+        padding: 10px;
+    }
+    #contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .form-contact{
+            width: 70%;
+            fieldset{
+                display: flex;
+                flex-direction: column;
+                width: 70%;
+                margin: 50px auto;
+                label{
+                    padding: 5px;
+                    text-align: center;
+                }
+                input{
+                    padding: 10px;
+                    text-align: center;
+                    width: 30%;
+                    margin: auto;
+                    border-radius: 5%;
+                }
+                .wrapper-genre{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    width: 30%;
+                    margin: auto;
+                    input{
+                        margin: auto;
+                    }
+                }
+                #form-btn{
+                    display: flex;
+                    justify-content: center;
+                    button{
+                        padding: 10px;
+                        margin: 10px;
+                        /** animaciones contacto**/
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        
+                        letter-spacing: 2px;
+                        color: $orange;/*letra inicial*/
+                        outline: 2px solid $soft-brown;/*borde*/
+                        position: relative;
+                        overflow: hidden;
+                        transition: color 1s;
+                        transition: outline 1s;
+                        background-color: $brown;
+                        &:hover{
+                            color: $brown; /*letra final*/
+                            outline: 2px solid $brown;/*borde*/
+                            background-color: $soft-brown;
+                        }
+                        &::before{
+                            content: '';
+                            position: absolute;
+                            top: 0;
+                            left: -50px;
+                            width: 0;
+                            height: 100%;
+                            background-color: red;
+                            transform: skewX(35deg);
+                            z-index: -1;
+                            transition: width 1s;
+                        }
+                        &:hover::before{
+                            width: 150%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

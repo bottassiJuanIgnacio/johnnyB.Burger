@@ -158,163 +158,14 @@ main #about-btm div img{
 /*** NEWS ***/
 /** main **/
 /* section about */
-main #new{
-  width: 60%;
-  display: flex;
-  flex-direction: column;
-  margin: 50px auto;
-  text-align: left;
-  padding: 30px;
-  margin-top: 25px;
-}
-/* article-new */
-main #new .article-new{
-  background-color: var(--brown);
-  margin: 25px 0px;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-}
-/* h2 */
-main #new .article-new h3{
-  color: var(--soft-brown);
-  font-family: 'Pacifico', cursive;
-  padding: 10px;
-}
-/* p */
-main #new .article-new p{
-  padding: 10px;
-  padding-bottom: 15px;
-}
-/* img */
-main #new .article-new div{
-  padding: 5px;
-}
-.cardNewText{
-  background-color: var(--brown);
-}
-.cardNewText p{
-  color: var(--orange);
-  font-family: 'Lato', sans-serif;
-}
+
+
 
 
 /*** CONTACT ***/
 /** main **/
 /* h2 */
-main h2{
-  color: var(--dark-blue);
-  font-family: 'Pacifico', cursive;
-  padding: 10px;
-}
-/* section contact */
-main #contact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-/* form */
-main #contact .form-contact{
-  width: 70%;
-}
-/* fieldset */
-main #contact .form-contact fieldset{
-  display: flex;
-  flex-direction: column;
-  width: 70%;
-  margin: 50px auto;
-}
-/* label */
-main #contact .form-contact fieldset label{
-  padding: 5px;
-  text-align: center;
-  
-}
-/* input */
-main #contact .form-contact fieldset input{
-  padding: 10px;
-  text-align: center;
-  width: 30%;
-  margin: auto;
-  border-radius: 5%;
-}
-/* .wrapper-genre */
-main #contact .form-contact fieldset .wrapper-genre{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 30%;
-  margin: auto;
-  
-}
-/* .wrapper-genre input */
-main #contact .form-contact fieldset .wrapper-genre input{
-  margin: auto;
-}
-/* form-btn */
-main #contact .form-contact fieldset #form-btn{
-  display: flex;
-  justify-content: center;
-}
-/* button*/
-main #contact .form-contact fieldset #form-btn button{
-  padding: 10px;
-  margin: 10px;
-}
-/** scrollbar **/
-::-webkit-scrollbar {
-  width: 12px;
-  height: 20px;
-  background-position: top;
-}
-::-webkit-scrollbar-button {
-  width: 0px;
-  height: 0px;
-}
-::-webkit-scrollbar-thumb {
-  background:var(--soft-brown);
-  border-radius: 6px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background:rgb(127, 127, 141);
-}
-::-webkit-scrollbar-thumb:active {
-  background: var(--maroon);
-}
 
-::-webkit-scrollbar-corner {
-  background: transparent;
-}
-/** animaciones contacto**/
-#form-btn button{
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: var(--orange);/*letra inicial*/
-  outline: 2px solid var(--soft-brown);/*borde*/
-  padding: 30px 60px;
-  position: relative;
-  overflow: hidden;
-  transition: color 1s;
-  transition: outline 1s;
-}
-#form-btn button:hover{
-  color: var(--brown); /*letra final*/
-  outline: 2px solid var(--brown);/*borde*/
-}
-#form-btn button::before{
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -50px;
-  width: 0;
-  height: 100%;
-  background-color: red;
-  transform: skewX(35deg);
-  z-index: -1;
-  transition: width 1s;
-}
-#form-btn button:hover::before{
-  width: 150%;
-}
 
 
 
@@ -428,16 +279,6 @@ main #contact .form-contact fieldset #form-btn button{
   main #menu .burger{
       width: max-content;
   }
-  /* .grid-father-menu{
-      display: grid;
-      height: 100vh;
-      grid-template-rows: 3fr;
-      grid-template-columns: 1fr;
-      gap: 10px;
-      grid-template-areas: "header" 
-                           "main"
-                           "footer" ;
-  }    */
   
   /*** NOTICIAS ***/
   main #new {

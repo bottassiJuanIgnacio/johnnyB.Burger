@@ -1,3 +1,77 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; }
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 20px;
+  background-position: top; }
+
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px; }
+
+::-webkit-scrollbar-thumb {
+  background: var(--soft-brown);
+  border-radius: 6px; }
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7f7f8d; }
+
+::-webkit-scrollbar-thumb:active {
+  background: var(--maroon); }
+
+::-webkit-scrollbar-corner {
+  background: transparent; }
+
+body {
+  background-color: var(--beige);
+  font-family: 'Lato', sans-serif;
+  font-size: 16px; }
+  body .responsive-img {
+    max-width: 100%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%; }
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; }
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 20px;
+  background-position: top; }
+
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px; }
+
+::-webkit-scrollbar-thumb {
+  background: var(--soft-brown);
+  border-radius: 6px; }
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7f7f8d; }
+
+::-webkit-scrollbar-thumb:active {
+  background: var(--maroon); }
+
+::-webkit-scrollbar-corner {
+  background: transparent; }
+
+body {
+  background-color: var(--beige);
+  font-family: 'Lato', sans-serif;
+  font-size: 16px; }
+  body .responsive-img {
+    max-width: 100%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%; }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -53,6 +127,43 @@ header {
             filter: drop-shadow(0 0 25px var(--clr)); }
           header .topNavBar ul li a i {
             font-size: 25px; }
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; }
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 20px;
+  background-position: top; }
+
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px; }
+
+::-webkit-scrollbar-thumb {
+  background: var(--soft-brown);
+  border-radius: 6px; }
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7f7f8d; }
+
+::-webkit-scrollbar-thumb:active {
+  background: var(--maroon); }
+
+::-webkit-scrollbar-corner {
+  background: transparent; }
+
+body {
+  background-color: var(--beige);
+  font-family: 'Lato', sans-serif;
+  font-size: 16px; }
+  body .responsive-img {
+    max-width: 100%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%; }
 
 /** Footer **/
 footer {
@@ -144,6 +255,43 @@ footer {
             background-color: #f9e3d2;
             box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; }
 
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; }
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 20px;
+  background-position: top; }
+
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px; }
+
+::-webkit-scrollbar-thumb {
+  background: var(--soft-brown);
+  border-radius: 6px; }
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7f7f8d; }
+
+::-webkit-scrollbar-thumb:active {
+  background: var(--maroon); }
+
+::-webkit-scrollbar-corner {
+  background: transparent; }
+
+body {
+  background-color: var(--beige);
+  font-family: 'Lato', sans-serif;
+  font-size: 16px; }
+  body .responsive-img {
+    max-width: 100%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%; }
+
 main {
   /* section menu */ }
   main h1 {
@@ -193,3 +341,155 @@ main {
         position: relative;
         opacity: .8;
         transition: transform .75s; }
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; }
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 20px;
+  background-position: top; }
+
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px; }
+
+::-webkit-scrollbar-thumb {
+  background: var(--soft-brown);
+  border-radius: 6px; }
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7f7f8d; }
+
+::-webkit-scrollbar-thumb:active {
+  background: var(--maroon); }
+
+::-webkit-scrollbar-corner {
+  background: transparent; }
+
+body {
+  background-color: var(--beige);
+  font-family: 'Lato', sans-serif;
+  font-size: 16px; }
+  body .responsive-img {
+    max-width: 100%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%; }
+
+main .noticias .cardNew .noticia .cardNewText {
+  background-color: #470D21; }
+  main .noticias .cardNew .noticia .cardNewText p {
+    color: #D67D3E;
+    font-family: 'Lato', sans-serif; }
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; }
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 20px;
+  background-position: top; }
+
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px; }
+
+::-webkit-scrollbar-thumb {
+  background: var(--soft-brown);
+  border-radius: 6px; }
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7f7f8d; }
+
+::-webkit-scrollbar-thumb:active {
+  background: var(--maroon); }
+
+::-webkit-scrollbar-corner {
+  background: transparent; }
+
+body {
+  background-color: var(--beige);
+  font-family: 'Lato', sans-serif;
+  font-size: 16px; }
+  body .responsive-img {
+    max-width: 100%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%; }
+
+main h2 {
+  color: #1A132F;
+  font-family: 'Pacifico', cursive;
+  padding: 10px; }
+
+main #contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  main #contact .form-contact {
+    width: 70%; }
+    main #contact .form-contact fieldset {
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+      margin: 50px auto; }
+      main #contact .form-contact fieldset label {
+        padding: 5px;
+        text-align: center; }
+      main #contact .form-contact fieldset input {
+        padding: 10px;
+        text-align: center;
+        width: 30%;
+        margin: auto;
+        border-radius: 5%; }
+      main #contact .form-contact fieldset .wrapper-genre {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 30%;
+        margin: auto; }
+        main #contact .form-contact fieldset .wrapper-genre input {
+          margin: auto; }
+      main #contact .form-contact fieldset #form-btn {
+        display: flex;
+        justify-content: center; }
+        main #contact .form-contact fieldset #form-btn button {
+          padding: 10px;
+          margin: 10px;
+          /** animaciones contacto**/
+          text-decoration: none;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          color: #D67D3E;
+          /*letra inicial*/
+          outline: 2px solid #FEA82F;
+          /*borde*/
+          position: relative;
+          overflow: hidden;
+          transition: color 1s;
+          transition: outline 1s;
+          background-color: #470D21; }
+          main #contact .form-contact fieldset #form-btn button:hover {
+            color: #470D21;
+            /*letra final*/
+            outline: 2px solid #470D21;
+            /*borde*/
+            background-color: #FEA82F; }
+          main #contact .form-contact fieldset #form-btn button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -50px;
+            width: 0;
+            height: 100%;
+            background-color: red;
+            transform: skewX(35deg);
+            z-index: -1;
+            transition: width 1s; }
+          main #contact .form-contact fieldset #form-btn button:hover::before {
+            width: 150%; }
