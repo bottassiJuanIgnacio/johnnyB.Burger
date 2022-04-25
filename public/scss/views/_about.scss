@@ -1,0 +1,50 @@
+@import "../utilities/variables";
+
+main{
+    #about-btm, #about-top{
+        background-color: $brown;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        margin: 50px auto;
+        text-align: center;
+        padding: 30px;
+        h2{
+            color: $soft-brown;
+            font-family: 'Pacifico', cursive;
+            padding: 10px;
+        }
+        p {
+            padding: 10px;
+            padding-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 70%;
+        }
+        .divImg{
+            padding: 15px;
+            img{
+                border-radius: 50%;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    #about-top{
+        p{
+            width: 100%;
+        }
+    }
+    #about-btm{
+        .divImg{
+            width: 70%;
+            height: auto;
+            margin: auto;
+        }
+        .card-dev{
+            display: flex;
+            width: 100%;
+        }
+    }
+}

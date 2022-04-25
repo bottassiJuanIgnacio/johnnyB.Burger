@@ -5,11 +5,7 @@ $maroon: #9C0F48;
 $brown: #470D21;
 $dark-blue: #1A132F;
 
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
+
 ::-webkit-scrollbar {
     width: 12px;
     height: 20px;
@@ -33,14 +29,3 @@ $dark-blue: #1A132F;
   ::-webkit-scrollbar-corner {
     background: transparent;
   }
-body{
-    background-color: var(--beige);
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    .responsive-img {
-        max-width: 100%;
-        object-fit: cover;
-        width: 100%;
-        height: 100%;
-    }
-}
