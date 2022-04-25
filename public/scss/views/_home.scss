@@ -1,1 +1,57 @@
 @import "../utilities/variables";
+@import "../utilities/global";
+main{
+    .slider{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .homeSection{
+        border: 3px solid var(--dark-blue);
+    }
+    .wrapler-top{
+        background-color: var(--brown);
+        display: flex;
+    }
+    .image-wrapler-top{
+        width: 70%;
+        img{
+            width: 100%;
+        }
+        p{
+            padding: 10px;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            font-size: 30px;
+        }
+    }
+    .wrapler-bottom{
+        background-color: var(--brown);
+        display: flex;
+        justify-content: right;
+        p{
+            padding: 10px;
+            padding-left: 20px;
+            width: 50%;
+            height: auto;
+            display: flex;
+            align-items: center;
+            font-size: 30px;
+        }
+        .divIframe{
+            width: 100%;
+        }
+        iframe{
+            padding: 3px 10px 0px 3px;
+            display: flex;
+            justify-content: left; 
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .lastImg{
+        width: 100%;
+        height: auto;
+    }
+}
