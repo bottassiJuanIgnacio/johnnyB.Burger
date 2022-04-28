@@ -1,0 +1,22 @@
+@import "../utilities/variables";
+
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+}
+ 
+
+@media only screen and (min-width: 0px) and (max-width: 767px){
+    /*** NOSTROS ***/
+    main{
+        #about-top{
+            width: 90%;
+        } 
+        #about-btm{
+            width: 90%;
+            div{
+                @include sizes(100%, 100%);
+            }
+        }
+    }
+}

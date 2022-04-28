@@ -1,5 +1,6 @@
 @import "../utilities/variables";
 @import "../utilities/global";
+
 main{
     .slider{
         display: flex;
@@ -7,10 +8,10 @@ main{
         align-items: center;
     }
     .homeSection{
-        border: 3px solid var(--dark-blue);
+        border: 3px solid $dark-blue;
     }
     .wrapler-top{
-        background-color: var(--brown);
+        background-color: $brown;
         display: flex;
     }
     .image-wrapler-top{
@@ -27,7 +28,7 @@ main{
         }
     }
     .wrapler-bottom{
-        background-color: var(--brown);
+        background-color: $brown;
         display: flex;
         justify-content: right;
         p{

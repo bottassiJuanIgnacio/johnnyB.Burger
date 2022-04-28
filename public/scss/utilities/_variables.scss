@@ -6,26 +6,4 @@ $brown: #470D21;
 $dark-blue: #1A132F;
 
 
-::-webkit-scrollbar {
-    width: 12px;
-    height: 20px;
-    background-position: top;
-  }
-  ::-webkit-scrollbar-button {
-    width: 0px;
-    height: 0px;
-  }
-  ::-webkit-scrollbar-thumb {
-    background:var(--soft-brown);
-    border-radius: 6px;
-  }
-  ::-webkit-scrollbar-thumb:hover {
-    background:rgb(127, 127, 141);
-  }
-  ::-webkit-scrollbar-thumb:active {
-    background: var(--maroon);
-  }
-  
-  ::-webkit-scrollbar-corner {
-    background: transparent;
-  }
+

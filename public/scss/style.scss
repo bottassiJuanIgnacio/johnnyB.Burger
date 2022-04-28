@@ -1,9 +1,23 @@
+//utilidades
 @import "utilities/variables";
 @import "utilities/global";
+@import "utilities/scrollBar";
+
+//layout
 @import "layout/header";
 @import "layout/footer";
+
+//vistas
 @import "views/menu";
 @import "views/news";
 @import "views/contact";
 @import "views/about";
 @import "views/home";
+
+//responsive
+@import "responsive/responsiveHome";
+@import "responsive/responsiveAbout";
+@import "responsive/responsiveContact";
+@import "responsive/responsiveMenu";
+@import "responsive/responsiveNews";
+@import "responsive/responsiveHeader";

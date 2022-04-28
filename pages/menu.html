@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Menu de hamburguesas disponibles">
+    <meta name="keywords" content="burger, menu, Johnny B. Burger, sabor, comida">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="../public/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../public/css/main.css">
     <title>Menú | Johnny B. Burger</title>
@@ -17,7 +18,7 @@
 
 <body>
     
-    <div class="grid-father-menu"><!-- Cuando le doy display grid a este div automaticamente se achica el body por la mitad -linea279 del css-  -->
+    <div class="grid-father-menu">
         <header class="grid-header-menu">
             <div class="logo">
                 <a href="../index.html"><img src="../public/img/burgerLogo.jpg" alt="Logo Burger"></a>
@@ -44,8 +45,9 @@
         </header>
         <main>
             <h1 class="grid-title-menu">Hamburguesas</h1>
+            <!-- cards para mostrar los productos -->
             <section id="menu">
-                <article class="burger grid-burger1"> <!-- Cuando hago grid-template-areas para estos articulos no me los toma, solamente me valida el header y footer pero este articulo que esta dentro del main no me lo ubica en columna "articulo1 articulo2" -linea284 css -->
+                <div class="burger grid-burger1"> 
                     <h2>Nombre del producto</h2>
                     <div class="cardMenu">
                         <img class="responsive-img cardMenu-image" src="../public/img/burgerMenu.jpg" alt="burger featured">
@@ -53,8 +55,8 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eaque porro numquam earum impedit
                         illo expedita ducimus distinctio dolor voluptatibus, aliquam, possimus repellendus facere sit optio
                         blanditiis similique deserunt. Nostrum.</p>
-                </article>
-                <article class="burger grid-burger2">
+                </div>
+                <div class="burger grid-burger2">
 
                     <h2>Nombre del producto</h2>
                     <div class="cardMenu">
@@ -65,8 +67,8 @@
                         blanditiis similique deserunt. Nostrum.</p>
 
 
-                </article>
-                <article class=" burger grid-burger3">
+                </div>
+                <div class=" burger grid-burger3">
 
                     <h2>Nombre del producto</h2>
                     <div class="cardMenu">
@@ -77,8 +79,8 @@
                         blanditiis similique deserunt. Nostrum.</p>
 
 
-                </article>
-                <article class=" burger grid-burger4">
+                </div>
+                <div class=" burger grid-burger4">
 
                     <h2>Nombre del producto</h2>
                     <div class="cardMenu">
@@ -89,8 +91,8 @@
                         blanditiis similique deserunt. Nostrum.</p>
 
 
-                </article>
-                <article class=" burger grid-burger5">
+                </div>
+                <div class=" burger5 grid-burger5">
 
                     <h2>Nombre del producto</h2>
                     <div class="cardMenu">
@@ -101,7 +103,7 @@
                         blanditiis similique deserunt. Nostrum.</p>
 
 
-                </article>
+                </div>
             </section>
         </main>
         <footer class="grid-footer-menu">

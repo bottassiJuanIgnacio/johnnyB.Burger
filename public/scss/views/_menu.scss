@@ -1,4 +1,9 @@
 @import "../utilities/variables";
+
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+}
 main{
     h1{
         font-family: 'Pacifico', cursive;
@@ -10,8 +15,8 @@ main{
         text-decoration-line: underline;
         box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
     }
-    /* section menu */
     #menu{
+        /* section menu */
         width: 90%;
         background-color: $brown;
         display: flex;
@@ -21,11 +26,15 @@ main{
         padding: 30px;
         justify-content: space-around;
         align-items: center;
-        /*article burger */
         .burger{
+            /*article burger */
             width: 40%;
             border: solid 5px $maroon;
             margin: 3rem 1rem;
+        }
+        .burger5{
+            @extend .burger;
+            width: 60%;
         }
         h2{
             color: $soft-brown;
@@ -36,11 +45,10 @@ main{
             padding: 10px;
             padding-bottom: 15px;
         }
-        /* img */
         .cardMenu{
+            /* img */
             padding: 15px;
-            width: 100%;
-            height: 100%;
+            @include sizes(100%, 100%);
             border-radius: 10px;
             outline: 1px solid rgba(255, 255, 255, .5);
             outline-offset: -26px;

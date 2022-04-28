@@ -1,0 +1,12 @@
+@import "../utilities/variables";
+
+/*** MENU ***/
+@media only screen and (min-width: 0px) and (max-width: 767px){
+    main{
+        #menu{
+            .burger{
+                width: max-content;
+            }
+        }
+    }  
+}
