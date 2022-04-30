@@ -534,6 +534,6 @@ main .lastImg {
 /*** TABLET RESPONSIVE ***/
 /** navbar **/
 @media only screen and (min-width: 0px) and (max-width: 1023px) {
-  header .topNavBar ul a {
+  header .topNavBar ul li a {
     font-size: 1rem;
     line-height: 1.4rem; } }
