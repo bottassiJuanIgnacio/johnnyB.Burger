@@ -80,27 +80,27 @@ footer{
             li{
                 margin: 10px;
                 a{
-                    color: $maroon;
                     i{
-                        font-size: 25px;
+                        font-size: 40px;
                     }
-                    .fa-facebook-square{
+                    .fa-facebook-f{
                         color: #4267B2;
-                        background-color: $beige;
-                        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+                        
+                        
                     }
-                    .fa-instagram-square{
+                    .fa-instagram{
                         color: #C13584;
-                        background-color: $beige;
-                        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+                        
+                        
                     }
-                    .fa-twitter-square{
+                    .fa-twitter{
                         color: #1d92db;
-                        background-color: $beige;
-                        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+                        
+                        
                     }
                 }
             }
         }
     }
 }
+

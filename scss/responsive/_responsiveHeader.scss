@@ -18,3 +18,18 @@
         }
     }
 }
+@media only screen and (min-width: 0px) and (max-width: 767px){
+    header{
+        .topNavBar{
+            ul{
+                
+                li{
+                    a{
+                        font-size: 1rem;
+                        line-height: 1.4rem;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -188,22 +188,14 @@ footer {
       padding-left: 0px; }
       footer .socialMidia ul li {
         margin: 10px; }
-        footer .socialMidia ul li a {
-          color: #9C0F48; }
-          footer .socialMidia ul li a i {
-            font-size: 25px; }
-          footer .socialMidia ul li a .fa-facebook-square {
-            color: #4267B2;
-            background-color: #f9e3d2;
-            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; }
-          footer .socialMidia ul li a .fa-instagram-square {
-            color: #C13584;
-            background-color: #f9e3d2;
-            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; }
-          footer .socialMidia ul li a .fa-twitter-square {
-            color: #1d92db;
-            background-color: #f9e3d2;
-            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; }
+        footer .socialMidia ul li a i {
+          font-size: 40px; }
+        footer .socialMidia ul li a .fa-facebook-f {
+          color: #4267B2; }
+        footer .socialMidia ul li a .fa-instagram {
+          color: #C13584; }
+        footer .socialMidia ul li a .fa-twitter {
+          color: #1d92db; }
 
 main h1 {
   font-family: 'Pacifico', cursive;
@@ -534,6 +526,11 @@ main .lastImg {
 /*** TABLET RESPONSIVE ***/
 /** navbar **/
 @media only screen and (min-width: 0px) and (max-width: 1023px) {
+  header .topNavBar ul li a {
+    font-size: 1rem;
+    line-height: 1.4rem; } }
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
   header .topNavBar ul li a {
     font-size: 1rem;
     line-height: 1.4rem; } }
