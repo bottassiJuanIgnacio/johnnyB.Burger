@@ -379,7 +379,9 @@ main #about-btm, main #about-top {
       height: 100%; }
 
 main #about-top p {
-  width: 100%; }
+  width: 100%;
+  font-size: 1.2rem;
+  letter-spacing: 1px; }
 
 main #about-btm .divImg {
   width: 70%;
@@ -521,6 +523,9 @@ main .lastImg {
   /*** NOSTROS ***/
   main #about-top {
     width: 90%; }
+    main #about-top p {
+      font-size: 1rem;
+      letter-spacing: 0.7px; }
   main #about-btm {
     width: 90%; }
     main #about-btm div {
