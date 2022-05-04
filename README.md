@@ -2,7 +2,7 @@
 
 # Descripción del proyecto #
 
-Mi proyecto se bautiza "Johnny B. Burger", una tienda pensada y creada para un buen paladar, en donde encontrar nuevas experiencias y gustos. 
+Mi proyecto se bautiza "Johnny B. Burger", una tienda pensada y creada para un buen paladar, en donde encontramos nuevas experiencias y gustos. 
 
 En la página encontrarás hamburguesas tanto nacionales como internacionales.
 
