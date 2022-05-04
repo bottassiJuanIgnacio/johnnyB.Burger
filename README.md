@@ -11,7 +11,7 @@ Nuestro público objetivo es pensado para todos los géneros, desde los 14 años
 # Desarrollador de Johnny B. Burger #
 
 ## Juani, Desarrollador web Full Stack ##
- entrenador Pokémon 25 años, diamante en el lol, amor profundo por las bicicletas. Habilidad nocturna: Codear.
+ Diamante en el lol, amor profundo por las bicicletas. Habilidad nocturna: Codear.
 
 # Referencias de mercado #
 
