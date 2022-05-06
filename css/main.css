@@ -40,14 +40,6 @@ main section p {
 ::-webkit-scrollbar-corner {
   background: transparent; }
 
-:root {
-  --beige: #f9e3d2;
-  --soft-brown: #FEA82F;
-  --orange: #D67D3E;
-  --maroon: #9C0F48;
-  --brown: #470D21;
-  --dark-blue: #1A132F; }
-
 .responsive-img {
   max-width: 100%;
   object-fit: cover;
@@ -122,7 +114,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-color: #D67D3E;
+  background-color: #470D21;
   border: 3px solid #1A132F;
   /* socialMidia nav */ }
   footer .logo {
@@ -155,13 +147,13 @@ footer {
       text-decoration: none;
       text-transform: uppercase;
       letter-spacing: 2px;
-      color: #9C0F48;
+      color: #FEA82F;
       /*letra inicial*/
       position: relative;
       overflow: hidden;
       transition: color .75s; }
       footer .bottomNav .button:hover {
-        color: #1A132F;
+        color: #f9e3d2;
         /*letra final*/ }
       footer .bottomNav .button::before {
         content: '';

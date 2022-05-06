@@ -6,7 +6,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: $orange;
+    background-color: $brown;
     border: 3px solid $dark-blue;
     .logo{
         display: inline-block;
@@ -43,12 +43,12 @@ footer{
             text-decoration: none;
             text-transform: uppercase;
             letter-spacing: 2px;
-            color: $maroon;/*letra inicial*/
+            color: $soft-brown;/*letra inicial*/
             position: relative;
             overflow: hidden;
             transition: color .75s;
             &:hover{
-                color: $dark-blue; /*letra final*/
+                color: $beige; /*letra final*/
             }
             &::before{
                 content: '';
