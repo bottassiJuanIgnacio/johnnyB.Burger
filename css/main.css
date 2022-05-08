@@ -28,14 +28,14 @@ main section p {
   height: 0px; }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--soft-brown);
+  background: #FEA82F;
   border-radius: 6px; }
 
 ::-webkit-scrollbar-thumb:hover {
   background: #7f7f8d; }
 
 ::-webkit-scrollbar-thumb:active {
-  background: var(--maroon); }
+  background: #9C0F48; }
 
 ::-webkit-scrollbar-corner {
   background: transparent; }
@@ -48,7 +48,7 @@ main section p {
 
 body {
   /** Body **/
-  background-color: var(--beige);
+  background-color: #f9e3d2;
   font-family: 'Lato', sans-serif;
   font-size: 16px; }
 

@@ -14,14 +14,14 @@
     height: 0px;
   }
   ::-webkit-scrollbar-thumb {
-    background:var(--soft-brown);
+    background:$soft-brown;
     border-radius: 6px;
   }
   ::-webkit-scrollbar-thumb:hover {
     background:rgb(127, 127, 141);
   }
   ::-webkit-scrollbar-thumb:active {
-    background: var(--maroon);
+    background: $maroon;
   }
   
   ::-webkit-scrollbar-corner {
@@ -38,7 +38,7 @@
   }
   body{
       /** Body **/
-    background-color: var(--beige);
+    background-color: $beige;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
   }
