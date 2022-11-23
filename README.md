@@ -13,6 +13,14 @@ Nuestro público objetivo es pensado para todos los géneros, desde los 14 años
 ## Juani, Desarrollador web Full Stack ##
  Diamante en el lol, amor profundo por las bicicletas. Habilidad nocturna: Codear.
 
+# GitHub Pages #
+
+Link: https://bottassijuanignacio.github.io/johnnyB.Burger/
+
+# Webhost000 #
+
+Link: https://jbburger.000webhostapp.com/
+
 # Referencias de mercado #
 
 Para lo que fue la investigación y la búsqueda de inspiraciones nos basamos en los siguientes portales:
@@ -27,11 +35,3 @@ Las fuentes que utilizamos para el diseño de la web se dividen entre:
 - Lato
 
 Todas retiradas de la plataforma https://fonts.google.com/
-
-# GitHub Pages #
-
-Link: https://bottassijuanignacio.github.io/johnnyB.Burger/
-
-# Webhost000 #
-
-Link: https://jbburger.000webhostapp.com/pages/news.html
